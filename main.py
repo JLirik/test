@@ -34,7 +34,7 @@ class Example(QDialog):
         for i in range(5):
             x = random.randint(0, 320)
             y = random.randint(0, 460)
-            r = random.randint(10, 75)
+            r = random.randint(15, 75)
             qp.drawEllipse(x, y, r, r)
 
 
